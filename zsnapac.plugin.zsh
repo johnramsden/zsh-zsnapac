@@ -45,7 +45,7 @@ function iterate_snaps(){
   command="${1}"
   snap_name="${2}"
 
-  for dataset in ${datasets}; do
+  for dataset in ${ZFS_PAC_SNAP_DATASETS[@]}; do
 
     if [ ${command} = "create" ]; then
       echo "Taking snapshot: ${dataset}@${snap_name}"
