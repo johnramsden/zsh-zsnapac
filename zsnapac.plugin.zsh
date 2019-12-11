@@ -1,12 +1,9 @@
-###
+########################
+# zsnapac
 # John Ramsden
 # johnramsden @ github
-# Version 0.1.0
-###
-
-## Local variables and functions
-
-source ${0:A:h}/zsnapac-settings.zsh
+# Version 0.1.1
+########################
 
 # Array of datasets to snapshot
 local datasets=${ZFS_PAC_SNAP_DATASETS}
